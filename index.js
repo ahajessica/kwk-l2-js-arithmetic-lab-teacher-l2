@@ -8,8 +8,8 @@ You should NOT try to redefine any of the above variables.
 
 // Write your code below this line!
 oldID
-var newID = 1000000000 + oldID
-var ageIsValid = true 
+let newID = 1000000000 + oldID
+let ageIsValid = true 
 
 if (Number.isInteger(currentAge)) {
   ageIsValid = true;
@@ -18,9 +18,9 @@ if (Number.isInteger(currentAge)) {
   console.log("Please enter a new age")
 }
 
-var randomNumber = Math.floor(Math.random() * 20) + 1;
+let randomNumber = Math.floor(Math.random() * 20) + 1;
 
-var randomInteger = Math.floor(randomNumber);
+let randomInteger = Math.floor(randomNumber);
 
-var randomUserID = randomInteger + 1000000000
+let randomUserID = randomInteger + 1000000000
   
